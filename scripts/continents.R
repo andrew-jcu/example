@@ -2,7 +2,7 @@
 #Title:  R Plotting
 #Author: Andrew Gray-Spence
 #Date:   20151002
-#Version 0.01
+#Version 0.02
 
 #call the package ggplot2 - should check to see if its installed and kick of install if
 #required (be careful of that last!)
