@@ -35,3 +35,5 @@ arg <- commandArgs(TRUE)
 try(make_pngplot(arg[1]))
 
 print(arg)
+
+print "I can has versions?"
