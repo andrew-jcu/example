@@ -25,5 +25,11 @@ make_pngplot <- function(name){
   dev.off()
 }
 
+make_pdfplot <- function(name){
+  pdf(file=paste(name,".pdf",sep=""))
+  draw_dots_cont(gapminder)
+  dev.off()
+}
+
 arg <- commandArgs(TRUE)
 try(make_pngplot(arg[1]))
