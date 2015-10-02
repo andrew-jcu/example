@@ -33,3 +33,5 @@ make_pdfplot <- function(name){
 
 arg <- commandArgs(TRUE)
 try(make_pngplot(arg[1]))
+
+print(arg)
